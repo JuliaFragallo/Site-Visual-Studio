@@ -1,22 +1,32 @@
 body{
     background-color: #ffffff;
-    color: #000000;
-
+    display: block;
     background-image: url(fundo.jpeg);
 }
   
-  
+nav ul{
+    display: flex;
+    transition: 0.3s all;
+}
 
+nav ul li a{
+    color: rgba(10, 34, 2, 1);
+    display: block;
+    margin: 0 2px;
+    font-weight: 600;
+    padding: 8px 18px;
+    list-style-type: none;
+    transition: 0.3s all;
+}
+  
 .titulo{
     width: 70%; 
     text-align: middle;
-    color:#000000;
     font-size: 250px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgba(10, 34, 2, 1);
 
 }
-
 
 .subtitulo{
     width: 85%;
@@ -27,7 +37,7 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: -10%;
     
-  }  
+}  
    
 .bambu-inicial{
     width: 100%;
