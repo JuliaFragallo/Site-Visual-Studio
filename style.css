@@ -1,8 +1,16 @@
+
+
+
 body{
     background-color: #ffffff;
     display: block;
     background-image: url(fundo.jpeg);
+    background-position-y: -50px;
+    background-repeat: repeat-x;
+    font-family: 'Poppins', sans-serif;
 }
+
+/**Nav Bar**/
   
 nav ul{
     display: flex;
@@ -14,25 +22,42 @@ nav ul li a{
     display: block;
     margin: 0 2px;
     font-weight: 600;
+    font-size: 22px;
     padding: 8px 18px;
     list-style-type: none;
     transition: 0.3s all;
 }
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.navlistas{
+    margin-left: 83%;
+}
+
+
+/**Textos**/
   
 .titulo{
     width: 70%; 
     text-align: middle;
     font-size: 250px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgba(10, 34, 2, 1);
+    color: rgb(11, 39, 0);
 
 }
+
 
 .subtitulo{
     width: 85%;
     padding: 20px, 40px;
     text-align: middle;
-    color:#000000;
+    color: rgb(8, 29, 2);
     font-size: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: -10%;
@@ -40,9 +65,10 @@ nav ul li a{
 }  
    
 .bambu-inicial{
-    width: 100%;
-    margin-top: -33%;
+    width: 60%;
+    margin-top: -36%;
     height: 970px;
+    margin-left: -110px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
-
 
