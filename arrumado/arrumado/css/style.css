@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    background-color: #ffffff;
+    display: block;
+    background-position-y: -50px;
+    background-repeat: repeat-x;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/**Textos**/
+
+.fundo{
+    width: 50%;
+    height: 100vh;
+    background: #0d730d;
+}
+  
+.titulo{
+    position: relative;
+    margin-top: -38%;
+    left: 30%;
+    font-size: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: rgb(11, 39, 0);
+}
+
+
+.subtitulo{
+    position: relative;
+    margin-top: -40px;
+    left: 50%;
+    color: rgb(8, 29, 2);
+    font-size: 100px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}  
+   
+.bambu-inicial{
+    width: 60%;
+    margin-top: -36%;
+    height: 970px;
+    margin-left: -110px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25%;
+}
+
+.sobre p{
+    max-width: 450px;
+}
